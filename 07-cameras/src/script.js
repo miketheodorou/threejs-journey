@@ -36,7 +36,7 @@ scene.add(mesh)
 
 // Camera
 const aspectRatio = sizes.width / sizes.height;
-const camera = new THREE.PerspectiveCamera(75, aspectRatio, 0.1, 100)
+const camera = new THREE.PerspectiveCamera(100, aspectRatio, 0.1, 100)
 
 // const camera = new THREE.OrthographicCamera(-1 * aspectRatio, 1 * aspectRatio, 1, -1, 0.1, 100);
 // camera.position.x = 2
